@@ -1,0 +1,39 @@
+SQL> desc student;
+ Name                                                                                Null?    Type
+ ----------------------------------------------------------------------------------- -------- --------------------------------------------------------
+ ROLLNO                                                                              NOT NULL NUMBER(38)
+ FIRSTNAME                                                                                    VARCHAR2(20)
+ LASTNAME                                                                                     VARCHAR2(20)
+ EMAIL                                                                                        VARCHAR2(20)
+ PHN_NUM                                                                                      VARCHAR2(20)
+ BRANCH                                                                                       VARCHAR2(20)
+
+SQL> desc admins;
+ Name                                                                                Null?    Type
+ ----------------------------------------------------------------------------------- -------- --------------------------------------------------------
+ FIRSTNAME                                                                                    VARCHAR2(20)
+ LASTNAME                                                                                     VARCHAR2(20)
+ EMAIL                                                                                        VARCHAR2(20)
+ PHN_NUM                                                                                      VARCHAR2(15)
+ PASSWORD                                                                                     VARCHAR2(20)
+ CON_PASSWORD                                                                                 VARCHAR2(20)
+
+SQL> desc viewbooks;
+ Name                                                                                Null?    Type
+ ----------------------------------------------------------------------------------- -------- --------------------------------------------------------
+ ROLLNO                                                                              NOT NULL NUMBER(38)
+ BOOKNAME                                                                                     VARCHAR2(20)
+ BOOKID                                                                                       NUMBER(38)
+
+SQL> desc issuebook;
+ Name                                                                                Null?    Type
+ ----------------------------------------------------------------------------------- -------- --------------------------------------------------------
+ BOOKID                                                                              NOT NULL NUMBER(38)
+ ROLLNO                                                                                       NUMBER(38)
+ BOOKNAME                                                                                     VARCHAR2(20)
+
+SQL> desc librarybooks;
+ Name                                                                                Null?    Type
+ ----------------------------------------------------------------------------------- -------- --------------------------------------------------------
+ BOOKID                                                                              NOT NULL NUMBER(38)
+ BOOKNAME                                                                                     VARCHAR2(20)
