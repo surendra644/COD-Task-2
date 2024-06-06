@@ -1,0 +1,42 @@
+select * from student;
+
+    ROLLNO FIRSTNAME            LASTNAME             EMAIL                PHN_NUM              BRANCH
+---------- -------------------- -------------------- -------------------- -------------------- --------------------
+         3 kar                  thik                 kar@gmail.com        8978564321           ece
+         6 xzr                  hrg                  xyg@gmail.com        908976542            eee
+         7 surya                chan                 surya@gmail.com      0987654221           cse
+
+SQL> select * from admins;
+
+FIRSTNAME            LASTNAME             EMAIL                PHN_NUM         PASSWORD             CON_PASSWORD
+-------------------- -------------------- -------------------- --------------- -------------------- --------------------
+surendra             appala               surendra@gmail.com   8143089264      1234                 1234
+xyz                  abc                  xyz@gmail.com        676452390       1234                 1234
+abc                  xyz                  abc@gmail.com        1234567890      2323                 2232
+
+SQL> select * from viewbooks;
+
+    ROLLNO BOOKNAME                 BOOKID
+---------- -------------------- ----------
+         1 java                       1234
+         3 python                     1236
+         4 machinelearning            1237
+         5 vlsi                       1238
+
+SQL> select * from librarybooks;
+
+    BOOKID BOOKNAME
+---------- --------------------
+      1234 java
+      1236 python
+      1237 machinelearning
+
+SQL> select * from issuebook;
+
+    BOOKID     ROLLNO BOOKNAME
+---------- ---------- --------------------
+      1234          1 java
+      1236          3 python
+      1237          4 machinelearning
+      1238          5 vlsi
+
