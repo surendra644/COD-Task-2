@@ -1,0 +1,40 @@
+h1{
+    position: relative;
+    left: 30px
+}
+body
+{
+    background-image:url("libraryback.jpg");
+}
+
+#login
+{
+    width: 400px;
+    height: 400px;
+  
+  margin-top: 200px;
+  margin-left: 730px;   
+}
+#tlen
+{
+    position: relative;
+    left:50px;
+}
+#rowlen
+{
+    position: relative;
+     top:20px;
+}
+#rowlen2
+{
+     position: relative;
+     top:50px;
+      
+}
+#sub
+{
+    position: relative;
+    top: 70px;
+    left: 90px;  
+}
+
